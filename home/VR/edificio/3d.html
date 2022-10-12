@@ -1,0 +1,26 @@
+<!-- Import the component -->
+<link media="all" rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+<script  src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+<link media="all" rel="stylesheet" type="text/css" href="https://pictogrammers.github.io/@mdi/font/6.9.96/css/materialdesignicons.min.css">
+<link media="all" rel="stylesheet" type="text/css" href="https://weppydev.com.co/cofres/asset/model.css">
+
+<model-viewer style="width:100%;height:100%" animation-name="abrirventana" id="paused-change-demo" camera-controls touch-action="pan-y"  ar ar-modes="webxr scene-viewer" shadow-intensity="1" src="" alt="La Esperansa">
+     <button class="Hotspot" slot="hotspot-1" data-position="-0.04991915450933499m 0.5791469289139369m 0.9873641427538742m" data-normal="-0.06625436154889391m 0.9978027658689606m -2.377673319116579e-8m" data-visibility-attribute="visible"><i class="mdi mdi-eye"></i></button>
+     <button class="Hotspot" slot="hotspot-2" data-position="-0.5022307566229018m 0.17400040062509986m 0.09894002085926479m" data-normal="-0.9992212615762258m -0.039457197239739165m 0m" data-visibility-attribute="visible"><i class="mdi mdi-eye"></i></button>
+     <button class="Hotspot" slot="" style="position: absolute;top:0;right: 10;"><i class="mdi mdi-magnify"></i></button>
+</model-viewer>
+<div class="modal fade bd-example-modal-lg" id="modal_3d" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered  modal-xl">
+    <div class="modal-content" style="height: calc(88vh - 80px);margin-bottom: 40px;">
+          <div class="modal-body">
+    		    <button type="button" style="float: right;" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <model-viewer style="width:100%;height:100%" animation-name="abrirventana" id="model_modal" camera-controls touch-action="pan-y"  ar ar-modes="webxr scene-viewer" shadow-intensity="1" src="" alt="La Esperansa">
+                 <button class="Hotspot" slot="hotspot-1" data-position="-0.04991915450933499m 0.5791469289139369m 0.9873641427538742m" data-normal="-0.06625436154889391m 0.9978027658689606m -2.377673319116579e-8m" data-visibility-attribute="visible"><i class="mdi mdi-eye"></i></button>
+                 <button class="Hotspot" slot="hotspot-2" data-position="-0.5022307566229018m 0.17400040062509986m 0.09894002085926479m" data-normal="-0.9992212615762258m -0.039457197239739165m 0m" data-visibility-attribute="visible"><i class="mdi mdi-eye"></i></button>
+          </model-viewer>
+    </div>
+  </div>
+</div>
+<script  src="https://weppydev.com.co/cofres/asset/model.js"></script>
